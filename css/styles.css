@@ -1,0 +1,164 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+body{
+    background-color:  hsl(185, 75%, 39%);
+}
+
+/* .attribution{
+  padding-top: 220px;
+} */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  padding: 0 2px;
+}
+
+footer{
+  text-align: center;
+  padding: 5px;
+}
+
+.back-color{
+  background-image: url(images/card.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+}
+.card{
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  transform: translate(50%, 0%);
+  position: absolute;
+  top: 20%;
+  right: 50%;
+  border-radius: 10px;
+}
+
+.victor{
+  border-radius: 100%;
+transform: translate(75%, 30%);
+position: absolute;
+top: 10%;
+left: 18%;
+border: solid 5px white;
+}
+
+.profile-card{
+  display:flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 30px;
+  align-items: center;
+}
+
+.name-card{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  padding: 0 5px;
+}
+
+.age-card{
+  font-weight: 400;
+  font-size:20px;
+  align-items: center;
+  padding-top: 18px;
+  color: hsl(227, 10%, 46%);
+
+}
+
+.location-card{
+  display:flex;
+  justify-content: center;
+  color: hsl(227, 10%, 46%)
+}
+
+.bottom-card{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.bottom-card2{
+  color: hsl(0, 0%, 59%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.top-list{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 2px
+}
+
+.bottom-list{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0 38px;
+  margin-bottom: 2px
+}
+
+.bottom-list2{
+  padding: 0 84px;
+  text-align: center;
+  margin-bottom: 2px
+}
+
+.bottom-list3{
+  padding-right: 20px;
+  margin-bottom: 2px
+}
+
+.top-image{
+  top: 40%;
+  right: -2%;
+  z-index: -1;
+  position: absolute;
+  opacity: .5;
+  width: 800px;
+  height: 700px;
+}
+
+.bottom-image{
+  top: 60%;
+  right: -3%;
+  z-index: -1;
+  transform: translate(-20%);
+}
+
+hr{
+  margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 1000px){
+  .top-image{
+    transform: translate(40%);
+    width: 800px;
+    height: 700px;
+  }
+  .bottom-image{
+    transform: translate(-60%);
+    width: 800px;
+    height: 700px;
+    overflow: hidden;
+  }
+  .attribution{
+    padding-top: 40%;
+  }
+}
